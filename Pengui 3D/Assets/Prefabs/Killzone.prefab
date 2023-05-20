@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5924371771012203171}
   - component: {fileID: 5924371772253982082}
   - component: {fileID: 5924371772253982081}
+  - component: {fileID: 1104875435}
   m_Layer: 4
   m_Name: Killzone
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 5924371771005646659}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -18.099573, y: -1.47, z: -18.579144}
-  m_LocalScale: {x: 500, y: 1, z: 500}
+  m_LocalScale: {x: 200, y: 1, z: 200}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -107,7 +108,7 @@ MeshCollider:
   m_GameObject: {fileID: 5924371771005646659}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -124,3 +125,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abea8bda88ee28d4a81fefaa6213dc3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1104875435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5924371771005646659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9999992, y: 64.422745, z: 1.9999986}
+  m_Center: {x: -0.00000030517577, y: -32.211372, z: 0.00000030517577}
