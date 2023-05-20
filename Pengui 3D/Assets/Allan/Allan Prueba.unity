@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.028699797, g: 0.29662526, b: 0.48963475, a: 1}
+  m_IndirectSpecularColor: {r: 0.028631816, g: 0.2966058, b: 0.4896375, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 440f4b9f601459e40a478f200f55e8f8, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -3337,6 +3337,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Killzone
       objectReference: {fileID: 0}
+    - target: {fileID: 5924371772253982082, guid: 91054082664e5464fb04c85008318291, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924371772253982082, guid: 91054082664e5464fb04c85008318291, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924371772253982082, guid: 91054082664e5464fb04c85008318291, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91054082664e5464fb04c85008318291, type: 3}
 --- !u!1 &1090392512 stripped
@@ -3358,6 +3370,24 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6163357941915963767, guid: c13d5a4313e966c49bf48c630a703acc, type: 3}
+--- !u!1 &1104875428 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5924371771005646659, guid: 91054082664e5464fb04c85008318291, type: 3}
+  m_PrefabInstance: {fileID: 1077425605}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1104875435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104875428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9999992, y: 0, z: 1.9999986}
+  m_Center: {x: -0.00000030517577, y: 0, z: 0.00000030517577}
 --- !u!1 &1186285446 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3886795092064743734, guid: 20c310efd48c2f546b0c8ac9ef671715, type: 3}
@@ -6247,6 +6277,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b4538ca4da8e324e9f47efbab707fe9, type: 3}
+--- !u!1 &1919954935 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4398966226576845042, guid: 14743f49c8c84774aa7d4e8922a861f4, type: 3}
+  m_PrefabInstance: {fileID: 48654756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1919954938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919954935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e501d18bb52cf8c40b1853ca4904654f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CollideAgainst:
+    serializedVersion: 2
+    m_Bits: 1
+  m_IgnoreTag: Player
+  m_TransparentLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_MinimumDistanceFromTarget: 0.1
+  m_AvoidObstacles: 1
+  m_DistanceLimit: 0
+  m_MinimumOcclusionTime: 0
+  m_CameraRadius: 0.1
+  m_Strategy: 0
+  m_MaximumEffort: 2
+  m_SmoothingTime: 0.36
+  m_Damping: 0
+  m_DampingWhenOccluded: 0
+  m_OptimalTargetDistance: 0
 --- !u!1001 &1942411609
 PrefabInstance:
   m_ObjectHideFlags: 0
