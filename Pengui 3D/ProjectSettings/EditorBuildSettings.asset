@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Allan/Allan Prueba.unity
     guid: c888269f1696c994e9f9f561ef5ad8be
+  - enabled: 1
+    path: Assets/Roy/SceneRoy/SceneRoy.unity
+    guid: f1c041c08379b834ea396b209b833cb7
   m_configObjects: {}

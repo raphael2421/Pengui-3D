@@ -49,6 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
+  Eggaudio: {fileID: 922715674}
   coinEffect: {fileID: 3121134809373772028, guid: 4b66bb4eb21bf6b45b72cea1781b42e6, type: 3}
 --- !u!135 &1889437025
 SphereCollider:
